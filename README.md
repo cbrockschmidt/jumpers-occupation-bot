@@ -1,4 +1,4 @@
-# Jumpers Darmstadt Occupation Bot
+# Jumpers Darmstadt Gym Occupation Bot
 
 This is a simple Telegram bot which fetches the current occupation of Jumpers Darmstadt and displays is to the user in a (group) chat.
 
