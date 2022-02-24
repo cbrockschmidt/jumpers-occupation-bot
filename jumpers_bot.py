@@ -1,8 +1,9 @@
-import urllib.request
 import json
-from telegram.ext import Updater, CallbackContext, CommandHandler
-from telegram import Update
 import logging
+import urllib.request
+
+from telegram import Update
+from telegram.ext import Updater, CallbackContext, CommandHandler
 
 
 def get_check_ins():
