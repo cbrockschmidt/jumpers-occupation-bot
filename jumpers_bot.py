@@ -8,8 +8,7 @@ from telegram.ext import Updater, CallbackContext, CommandHandler
 
 def get_check_ins():
     """Fetch the current and maximum occupation of Jumpers Darmstadt as JSON and decode the result."""
-    with urllib.request.urlopen(
-            "https://www.jumpers-fitness.com/club-checkin-number/7/Jumpers.JumpersFitnessTld") as url:
+    with urllib.request.urlopen("https://www.jumpers-fitness.com/club-checkin-number/7/Jumpers.JumpersFitnessTld") as url:
         data = json.load(url)
 
         max_check_ins = data["maxCheckinsAllowed"]
